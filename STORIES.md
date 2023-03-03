@@ -8,7 +8,7 @@
 
 | ID   | UserStory                                                    | SP   | HEAD | PRIORITY | Status                                                       |
 | ---- | ------------------------------------------------------------ | ---- | ---- | -------- | ------------------------------------------------------------ |
-| 1    | As a user, I want to add and remove shopping items in the app, so that I can manage them electronically | 3    | WIMN | Must     | [status](](https://github.com/TGM-HIT/syt5-gek1051-mobile-application-shopilist/issues/5)) |
+| 1    | As a user, I want to add and remove shopping items in the app, so that I can manage them electronically | 3    | WIMN | Must     | [status](https://github.com/TGM-HIT/syt5-gek1051-mobile-application-shopilist/issues/5) |
 | 2    | As a user, I want my Shopping Lists to be updated in the background and notify me of changes, so that I can easily stay up to date with new shopping items | 2    | HAMF | Nice     | [status](https://github.com/TGM-HIT/syt5-gek1051-mobile-application-shopilist/issues/2) |
 | 3    | As a user, I want to access already existing shopping lists, so that I can collaborate with someone else. | 3    | HAMF | Must     | [status](https://github.com/TGM-HIT/syt5-gek1051-mobile-application-shopilist/issues/3) |
 | 4    | As a user, I want to be able to assign labels and filters to items, so that the list is more organised. | 2    | STES | Should   | [status](https://github.com/TGM-HIT/syt5-gek1051-mobile-application-shopilist/issues/4) |
