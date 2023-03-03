@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Shopilist</string>
+    <string name="title_activity_main">Shopilist</string>
+    <string name="package_name">at.ac.tgm.shopilist</string>
+    <string name="custom_url_scheme">at.ac.tgm.shopilist</string>
+</resources>
