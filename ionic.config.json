@@ -1,0 +1,7 @@
+{
+  "name": "Shopilist",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
