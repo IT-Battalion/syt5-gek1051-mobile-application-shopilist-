@@ -2,9 +2,7 @@
 
 Shopping List implementation based on VueJS and Couchbase. The goal is to provide a collaborative Shopping List with offline first storage.
 
-This project is part of the SYT labor, team members are Wimmer, Steindl and Hamacsek, the documentation can be found on [Overleaf](docs).
-
-[docs]: https://www.overleaf.com/read/pjtbhvfmkmyh
+This project is part of the SYT labor, team members are Wimmer, Steindl and Hamacsek, the documentation can be found on [Overleaf](https://www.overleaf.com/read/pjtbhvfmkmyh).
 
 ## Development Setup
 
