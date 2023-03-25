@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from '@ionic/vue-router';
 import { RouteRecordRaw } from 'vue-router';
 import Shopilist from '../views/ShopilistView.vue'
+import AddItems from '../views/AddItemsView.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -12,6 +13,11 @@ const routes: Array<RouteRecordRaw> = [
     name: 'Shopilist',
     component: Shopilist
   },
+  {
+    path: '/add',
+    name: 'Add Items',
+    component: AddItems
+  }
 ]
 
 const router = createRouter({
