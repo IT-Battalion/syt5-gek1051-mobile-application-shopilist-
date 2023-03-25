@@ -16,6 +16,6 @@ defineProps({
   <ion-item>
     <ion-checkbox slot="start"></ion-checkbox>
     <ion-label>{{ item.name }}</ion-label>
-    <ion-icon :icon="closeOutline"></ion-icon>
+    <ion-icon :icon="closeOutline" size="small"></ion-icon>
   </ion-item>
 </template>
