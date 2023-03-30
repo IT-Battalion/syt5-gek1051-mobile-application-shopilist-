@@ -23,6 +23,9 @@ import '@ionic/vue/css/display.css';
 /* Theme variables */
 import './theme/variables.css';
 
+//imports DatabasePlugin from our module in ./testfolder/index.ts
+import DatabasePlugin from './testfolder';
+
 const app = createApp(App)
   .use(IonicVue)
   .use(router);
@@ -30,3 +33,16 @@ const app = createApp(App)
 router.isReady().then(() => {
   app.mount('#app');
 });
+
+//start db, add value, read value, closeDB | Simple Test case
+DatabasePlugin.initialise();
+DatabasePlugin.addString({key: 'Testkey', value: 'Testvalue'});
+obtainStr('Testkey')
+DatabasePlugin.closeDB()
+
+//When working with await we need to use functions as it otherwise requires special configuration of a plugin we don't have installed
+async function obtainStr(textkey: string)
+{
+  const { value } = await DatabasePlugin.obtainString({key: textkey});
+  console.log('Response:', value);
+}
